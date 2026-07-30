@@ -1,0 +1,19 @@
+[
+    {
+        "icon": "🔥",
+        "title": "Perigo de Incêndio Rural",
+        "message": "Nível elevado previsto para o distrito do Porto."
+    },
+
+    {
+        "icon": "🌬️",
+        "title": "Condições Meteorológicas",
+        "message": "Vento moderado previsto nas próximas horas."
+    },
+
+    {
+        "icon": "🚒",
+        "title": "Estado Operacional",
+        "message": "Meios preparados para resposta operacional."
+    }
+]
