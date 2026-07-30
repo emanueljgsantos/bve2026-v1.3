@@ -1,0 +1,46 @@
+[
+    {
+
+        "name": "VFCI 01",
+
+        "type": "Veículo Florestal de Combate a Incêndios",
+
+        "location": "Quartel",
+
+        "crew": 3,
+
+        "status": "🟢 Disponível"
+
+    },
+
+
+    {
+
+        "name": "ABSC 01",
+
+        "type": "Ambulância Socorro",
+
+        "location": "Hospital",
+
+        "crew": 2,
+
+        "status": "🟡 Empenhada"
+
+    },
+
+
+    {
+
+        "name": "VTTF",
+
+        "type": "Veículo Tanque Tático Florestal",
+
+        "location": "Zona Operacional",
+
+        "crew": 4,
+
+        "status": "🔴 Em intervenção"
+
+    }
+
+]
