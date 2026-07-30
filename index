@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>BVE Dashboard Operacional SADO</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header class="topbar">
+
+
+<div class="brand">
+🚒 BVE Dashboard Operacional
+</div>
+
+
+<div class="clock-area">
+
+<div id="date">
+--
+</div>
+
+<div id="clock">
+--
+</div>
+
+</div>
+
+
+
+<div class="system-status">
+
+<span id="internetStatus">
+🟢 Internet
+</span>
+
+
+<button id="refreshAll">
+⟳ Atualizar
+</button>
+
+
+<button id="fullscreen">
+⛶ Full Screen
+</button>
+
+
+</div>
+
+
+</header>
+
+
+
+
+
+<section class="operational-panel">
+
+
+<div class="indicator">
+
+🔥
+
+<strong>
+Risco Incêndio
+</strong>
+
+<span id="riskLevel">
+--
+</span>
+
+</div>
+
+
+
+<div class="indicator">
+
+⚠️
+
+<strong>
+Alerta
+</strong>
+
+<span id="alertLevel">
+--
+</span>
+
+</div>
+
+
+
+<div class="indicator">
+
+🌡️
+
+<strong>
+Temperatura
+</strong>
+
+<span id="temperature">
+--
+</span>
+
+</div>
+
+
+
+<div class="indicator">
+
+🌬️
+
+<strong>
+Vento
+</strong>
+
+<span id="wind">
+--
+</span>
+
+</div>
+
+
+
+<div class="indicator">
+
+📡
+
+<strong>
+Sistemas
+</strong>
+
+<span id="systemState">
+--
+</span>
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<nav class="quick-menu">
+
+
+<a href="https://experience.arcgis.com/experience/efb73327f60440a4b9bbc577942057fe/page/FMDECIR"
+target="_blank">
+
+🚒 DECIR
+
+</a>
+
+
+<a href="https://portalpem.inem.pt/Dashboard"
+target="_blank">
+
+🚑 PEM
+
+</a>
+
+
+<a href="https://bvermesinde.decimal.pt/decimalfire/"
+target="_blank">
+
+🚒 DECIMAL
+
+</a>
+
+
+<a href="https://www.ipma.pt"
+target="_blank">
+
+🌦 IPMA
+
+</a>
+
+
+</nav>
+
+
+
+
+
+
+
+
+<main class="dashboard-grid">
+
+
+
+<!-- SITUAÇÃO -->
+
+
+<section class="card">
+
+
+<header>
+
+🔥 Situação Operacional
+
+</header>
+
+
+<div class="system-box" id="riskPanel">
+
+A carregar...
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- METEO -->
+
+
+<section class="card">
+
+
+<header>
+
+🌦 Meteorologia
+
+</header>
+
+
+<div class="system-box" id="weatherPanel">
+
+A carregar...
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- ALERTAS -->
+
+
+<section class="card">
+
+
+<header>
+
+⚠ Alertas Operacionais
+
+</header>
+
+
+<div class="system-box" id="alertsPanel">
+
+A carregar...
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- OCORRÊNCIAS -->
+
+
+<section class="card">
+
+
+<header>
+
+🚨 Ocorrências do Dia
+
+</header>
+
+
+<div class="system-box" id="incidentsPanel">
+
+A carregar...
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- MEIOS -->
+
+
+<section class="card">
+
+
+<header>
+
+🚒 Estado dos Meios
+
+</header>
+
+
+<div class="system-box" id="vehiclesPanel">
+
+A carregar...
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- SISTEMAS -->
+
+
+<section class="card">
+
+
+<header>
+
+📡 Sistemas Externos
+
+</header>
+
+
+<div class="system-box" id="systemsPanel">
+
+A carregar...
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- MAPA -->
+
+
+<section class="card map-card">
+
+
+<header>
+
+🗺 Mapa Operacional
+
+</header>
+
+
+<div class="system-box">
+
+
+<a target="_blank"
+href="https://experience.arcgis.com/experience/efb73327f60440a4b9bbc577942057fe/page/FMDECIR">
+
+Abrir Cartografia Operacional
+
+</a>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- CONTACTOS -->
+
+
+<section class="card contacts">
+
+
+<header>
+
+📞 Contactos
+
+</header>
+
+
+<ul>
+
+<li>112</li>
+
+<li>CDOS Porto</li>
+
+<li>INEM</li>
+
+<li>Proteção Civil Municipal</li>
+
+<li>Comando</li>
+
+
+</ul>
+
+
+</section>
+
+
+
+</main>
+
+
+
+
+
+<footer>
+
+BVE Dashboard Operacional SADO |
+Versão 1.3 |
+GitHub Pages
+
+</footer>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
